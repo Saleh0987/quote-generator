@@ -4,6 +4,7 @@
     font-family: "Akaya Telivigala", monospace, sans-serif;
     font-size: 22px;
 }
+
 body{
     display: flex;
     flex-direction: column;
@@ -14,11 +15,13 @@ body{
     background-color: #e3e3e3;
     padding: 10px 0;
 }
+
 h1{
     color: #262834;
     font-size: 28px;
     padding: 8px;
 }
+
 .container{
     width: 96%;
     max-width: 400px;
@@ -32,11 +35,13 @@ h1{
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
 }
+
 .container p{
     color: #e3e3e3;
     padding: 5px;
     text-align: left;
 }
+
 .container span{
     color: #e3e3e399;
     font-size: 16px;
@@ -47,11 +52,13 @@ h1{
     box-sizing: border-box;
     font-family: "Dancing Script", "Akaya Telivigala", monospace, sans-serif;
 }
+
 .btns{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: minmax(60px, auto);
 }
+
 .btns button{
     padding: 8px;
     margin: 5px;
@@ -66,16 +73,50 @@ h1{
     -o-border-radius: 4px;
     font-weight: 500;
 }
+
 .btns button.btn{
     background-color: #56cbdb;
     color: #262834;
     font-weight: bold;
 }
+
 .btns button:first-of-type{
     grid-column: 1/1;
     grid-row: 1;
 }
+
 .btns button:last-of-type{
     grid-column: 2/4;
     grid-row: 1;
+}
+
+h3{
+    padding: 8px;
+    text-align: left;
+    color: #e3e3e3;
+}
+
+.share{
+display: flex;
+justify-content: space-between;
+padding: 8px;
+cursor: pointer;
+}
+
+.share .btn{
+    color: #e3e3e3;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.share .btn.face{
+    background-color: #3b5998;
+}
+
+.share .btn.whats{
+    background-color: rgb(14, 204, 14);
+}
+
+.share .btn.tweet{
+    background-color: #00aced;;
 }
